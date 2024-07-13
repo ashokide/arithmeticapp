@@ -13,7 +13,7 @@ add.addEventListener('click', async () => {
         alert("All fields required");
     }
     else {
-        await fetch("https://my-arithmetic-app.herokuapp.com/add", {
+        await fetch("https://arithmetic-sg60.onrender.com/add", {
             mode: 'cors',
             method: 'POST',
             headers: {
@@ -38,7 +38,7 @@ sub.addEventListener('click', async () => {
         alert("All fields required");
     }
     else {
-        await fetch("https://my-arithmetic-app.herokuapp.com/sub", {
+        await fetch("https://arithmetic-sg60.onrender.com/sub", {
             mode: 'cors',
             method: 'POST',
             headers: {
@@ -62,7 +62,7 @@ mul.addEventListener('click', async () => {
         alert("All fields required");
     }
     else {
-        await fetch("https://my-arithmetic-app.herokuapp.com/mul", {
+        await fetch("https://arithmetic-sg60.onrender.com/mul", {
             mode: 'cors',
             method: 'POST',
             headers: {
@@ -86,7 +86,7 @@ div.addEventListener('click', async () => {
         alert("All fields required");
     }
     else {
-        await fetch("https://my-arithmetic-app.herokuapp.com/div", {
+        await fetch("https://arithmetic-sg60.onrender.com/div", {
             mode: 'cors',
             method: 'POST',
             headers: {
